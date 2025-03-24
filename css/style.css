@@ -231,7 +231,7 @@ button {
 .header_section {
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg.png);
+    background-image: url(../images/Akash\ 01.png);
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -320,8 +320,6 @@ button {
     padding: 0px;
     display: inline-block;
 }
-
-.social_icon li {}
 
 .social_icon li a {
     float: left;
