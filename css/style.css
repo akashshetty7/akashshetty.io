@@ -854,6 +854,71 @@ button {
 /* project box section end */
 
 
+/* contact section (new sheet) */
+
+/* Add margin below the contact box */
+
+/* Centered Contact Box */
+
+/* Move Contact Box Further Down */
+
+/* Contact Box Styling */
+.contact_box {
+    width: 400px; /* Adjust the width */
+    background: #f9f9f9;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 50px auto; /* Moves it down */
+ }
+ 
+ /* Name Styling */
+ .contact_name {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+ }
+ 
+ /* Contact Item (Icons + Links) */
+ .contact_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+ }
+ 
+ /* Icons Styling */
+ .icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+ }
+ 
+ /* Links Styling */
+ .contact_link {
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+ }
+ 
+ .contact_link:hover {
+    color: #005582;
+ }
+ 
+ /* Note Styling */
+ .contact_note {
+    font-style: italic;
+    color: #666;
+    margin-top: 15px;
+    font-size: 14px;
+ }
+ 
+
+/* contach section (new sheet end) */
+
 /* footer section start */
 
 .footer_section {
