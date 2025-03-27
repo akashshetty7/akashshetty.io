@@ -285,6 +285,13 @@ button {
     padding: 0px 0px 220px 0px;
 }
 
+.banner_section img {
+    position: relative;
+    z-index: 2; /* Keep image on top */
+}
+
+
+
 .banner_taital_main {
     width: 100%;
     float: left;
@@ -297,17 +304,19 @@ button {
     float: left;
     font-size: 60px;
     color: #fefefd;
+    text-shadow: 2px 2px 5px rgba(255, 215, 0, 0.5); 
     font-weight: bold;
     padding-bottom: 0px;
     line-height: 70px;
 }
 
 .banner_text {
-    width: 100%;
-    float: left;
-    font-size: 24px;
-    color: #fefefd;
+    font-size: 22px; /* Increase size */
+    font-weight: 600; /* Make it bold */
+    color: white; /* Gold color to match theme */
+    text-shadow: 2px 2px 5px rgba(255, 215, 0, 0.5); /* Soft yellow glow */
 }
+
 
 .social_icon {
     width: 100%;
