@@ -521,7 +521,7 @@ button {
     font-weight: bold;
     text-align: left;
     color: #111; /* Dark black */
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 /* Role Title */
@@ -539,7 +539,7 @@ button {
     color: #111; /* Black */
     text-align: left;
     font-weight: 500;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 /* Experience List */
@@ -558,7 +558,7 @@ button {
     font-weight: bold;
     text-align: left;
     color: #111; /* Dark black */
-    margin-bottom: 10px;
+    margin-bottom: 1px;
 }
 
 /* Degree Title */
@@ -602,7 +602,7 @@ button {
     font-weight: bold;
     text-align: left;
     color: #111; /* Dark black */
-    margin-bottom: 10px;
+    margin-bottom: 1px;
 }
 
 /* Title */
@@ -745,7 +745,16 @@ button {
 .image-wrapper {
     position: relative;
     width: 100%;
-    max-width: 600px; /* Prevents large image */
+    max-width: 400px; /* Prevents large image */
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.image-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 450px; /* Prevents large image */
     margin: 0 auto;
     overflow: hidden;
     border-radius: 10px;
